@@ -36,12 +36,12 @@
         fwrite($config_file, "Spark-Projct1-RPI-Configuration\n-------------------------------\n\n[FORCELOG]\n");
         for($i=0; $i < 4; ++$i){
             if($config[$i][0] == "") $config[$i][0] = 0;
-            fwrite($config_file, "Devince_No_".$i.": ".$config[$i][0]."\n");
+            fwrite($config_file, "Device_No_".$i."=".$config[$i][0]."\n");
         }
 
         fwrite($config_file, "\n[SHEDULE]\n");
         for($i=0; $i < 4; ++$i){
-            fwrite($config_file, "Devince_No_".$i.": ".$config[$i][1]."-->".$config[$i][2]."\n");
+            fwrite($config_file, "Device_No_".$i."=".$config[$i][1]."-->".$config[$i][2]."\n");
         }
 
         fclose($config_file);

@@ -1,0 +1,14 @@
+Spark-Projct1-RPI-Configuration
+-------------------------------
+
+[FORCELOG]
+Devince_No_0: 0
+Devince_No_1: 0
+Devince_No_2: 0
+Devince_No_3: 0
+
+[SHEDULE]
+Devince_No_0: 05:04-->UNSHEDULED
+Devince_No_1: UNSHEDULED-->UNSHEDULED
+Devince_No_2: UNSHEDULED-->UNSHEDULED
+Devince_No_3: UNSHEDULED-->UNSHEDULED
